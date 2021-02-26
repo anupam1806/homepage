@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="style.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet"> 
     <style type="text/css">
         #slider {
@@ -61,12 +62,11 @@
         </style>
 </head>
 <body>
-    <nav id="navbar">
-        <div id="navLeft">
-        <div class="log" id="logo">
+    <nav class="navbar h-nav">
+        <div class="navLeft">
+        <div class="log v-class" id="logo">
             <img src="img/hummingbird-1935665_640.png" alt="Error">
-        </div>
-        </div>
+        
         <ul>
             <!-- li.item{<a></a>}*4 -->
             <li class="item"><a href="#home">Home</a></li>
@@ -74,6 +74,13 @@
             <li class="item"><a href="#client">About Us</a></li>
             <li class="item"><a href="#contact">Contact Us</a></li>
         </ul>
+        </div>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
     </nav>
     <div id="slider">
 		<figure>
@@ -85,10 +92,10 @@
 		</figure>
 	</div>
     <section id="home">
-        <h1 class="primary">Welcome to Food Ordering</h1>
+        <h1 class="primary">Welcome to Homepage</h1>
         <p>Lipsum dolor sit amet consectetur adipisicing elit. Quos explicabo tenetur, soluta id laborum</p>
         <p>Lipsum dolor sit amet consectetur adipisicing elit.</p>
-        <button class="btn">Order Now</button>
+        <button class="btn">Login</button>
     </section>
     <section id="services-container">
         <h1 class="primary center">Our Services</h1>
@@ -116,7 +123,7 @@
         <hr>
         <h1 class="primary center">About Us</h1>
         <div id="clients">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque adipisci odit consectetur saepe repellendus, dolores, eveniet provident laudantium expedita in voluptate ducimus officiis consequatur maxime eligendi suscipit est mollitia reprehenderit? Iste natus ullam odit corrupti reprehenderit eligendi ipsa, maiores ea adipisci commodi repudiandae veritatis, ducimus nisi consectetur temporibus eum modi ipsum minus explicabo aut, iure impedit cupiditate ex officiis. Voluptas ipsam enim quia, tempore laborum dolore cumque iste eos excepturi sit. Quidem ducimus maiores exercitationem esse, officiis porro praesentium? Atque nisi odio, qui ea nulla asperiores facilis ducimus tenetur rem error assumenda voluptatem debitis. Molestias necessitatibus consectetur porro, illum illo quibusdam expedita, nostrum sint odit nulla hic aperiam? Consequatur, adipisci amet dolorum accusamus est autem in sequi commodi possimus vero quia totam, sapiente similique provident vitae? Pariatur velit a dolorum, tempora nihil quos sequi animi molestiae, enim officia, quam debitis? A ex tempora voluptatibus porro aliquid illum dolor, iure odio omnis nemo odit, vero sequi earum excepturi, ea atque vel ipsa labore aperiam explicabo quisquam eveniet? Placeat ducimus repellendus sunt eligendi quo, commodi reprehenderit officiis eius veniam excepturi, doloribus id similique saepe fugiat eveniet aliquid. Aliquam excepturi animi dolorum quisquam recusandae, vel iste reiciendis illum incidunt porro culpa cumque hic eos praesentium debitis dolores officiis saepe veniam tempora iusto minus magnam quia similique quo! Molestiae deserunt suscipit recusandae? Labore tempore pariatur enim cupiditate quo velit porro id itaque voluptatem fuga omnis fugit, quibusdam, quis dolor cum recusandae placeat nobis? Esse quos quam dolor illum quod laboriosam totam cum architecto sed assumenda optio, et fuga odio aperiam dolores ipsa velit distinctio incidunt, similique libero in praesentium, pariatur error? Totam mollitia dolorum omnis iste quis vel eius debitis consequatur nisi maiores aliquid facilis eos explicabo inventore perspiciatis cum consectetur, placeat libero. Voluptas nisi, atque nostrum sit adipisci necessitatibus unde a nam architecto ab. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque adipisci odit consectetur saepe repellendus, dolores, eveniet provident laudantium expedita in voluptate ducimus officiis consequatur maxime eligendi suscipit est mollitia reprehenderit? Iste natus ullam odit corrupti reprehenderit eligendi ipsa, maiores ea adipisci commodi repudiandae veritatis, ducimus nisi consectetur temporibus eum modi ipsum minus explicabo aut, iure impedit cupiditate ex officiis. Voluptas ipsam enim quia, tempore laborum dolore cumque iste eos excepturi sit. Quidem ducimus maiores exercitationem esse, officiis porro praesentium? Atque nisi odio, qui ea nulla asperiores facilis ducimus tenetur rem error assumenda voluptatem debitis. Molestias necessitatibus consectetur porro, illum illo quibusdam expedita, nostrum sint odit nulla hic aperiam? Consequatur, adipisci amet dolorum accusamus est autem in sequi commodi possimus vero quia totam, sapiente similique provident vitae? Pariatur velit a dolorum, tempora nihil quos sequi animi molestiae, enim officia, quam debitis? A ex tempora voluptatibus porro aliquid illum dolor, iure odio omnis nemo odit, vero sequi earum excepturi, ea atque vel ipsa labore aperiam explicabo quisquam eveniet? Placeat ducimus repellendus sunt eligendi quo, commodi reprehenderit officiis eius veniam excepturi, doloribus id similique saepe fugiat eveniet </p>
         </div>
     </section>
     <hr>
@@ -153,6 +160,7 @@
             Copyright &copy; www.foodDelivery.com. All right reserved
         </div>
     </footer>
+    <script src="resp.js"></script>
 </body>
 <script src="app.js"></script>
 </html>
